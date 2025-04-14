@@ -1,12 +1,34 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website! This project showcases my skills, projects, and experiences as a developer. It is built using React and includes a responsive design for both desktop and mobile users.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design with a mobile-friendly sidebar
+- Navigation links to different sections (Home, About, Projects, Contact)
+- Background image and modern UI styling
+- Toggleable sidebar for easy navigation on mobile devices
+
+## Technologies Used
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [CSS](https://www.w3schools.com/css/) - For styling the application
+- [SVG](https://www.w3.org/Graphics/SVG/) - For scalable vector graphics icons
+
+## Installation
+
+To get a local copy up and running, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio-website.git
