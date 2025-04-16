@@ -4,7 +4,6 @@ function Home() {
     return (
         <div className="home">
         contact 
-        images animation github link leetcode link 
         </div>
     );
 
