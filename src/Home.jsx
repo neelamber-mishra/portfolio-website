@@ -5,7 +5,7 @@ function Home() {
     <div className="home" id="home">
       <h1>web-developer</h1>
       <p className="links">
-        say hallo <i className="fas fa-coffee"></i>
+        say hello <i className="fas fa-coffee"></i>
       </p>
       <p className="intro">
         Hello i am {dev} , a computer science student at the indian institute of
