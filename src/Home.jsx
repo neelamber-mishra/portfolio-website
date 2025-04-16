@@ -3,6 +3,7 @@ function Home() {
 
     return (
         <div className="home">
+            Hello my name is {dev} 
         contact 
         </div>
     );
