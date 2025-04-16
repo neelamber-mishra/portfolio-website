@@ -42,7 +42,6 @@ nav a {
 nav a:hover {
   background-color: #f0f0f032;
   font-size: larger;
-  border-top: 2px solid #f0f0f0;
 }
 nav li:first-child {
   margin-right: auto;
