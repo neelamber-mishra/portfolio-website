@@ -9,7 +9,7 @@ function Home() {
       </p>
       <p className="intro">
         Hello i am {dev} , a computer science student at the indian institute of
-        technology (dhanbad). current fields of studying include machine learing
+        technology (dhanbad). current fields of studying include machine learning
         , full-stack web-development, competetive coding and quant.
       </p>
 
