@@ -3,7 +3,11 @@ function Home() {
 
     return (
         <div className="home">
-            Hello my name is {dev} 
+            <h1>{dev}</h1>
+            <p>
+            a computer science student at the indian institute of technology (dhanbad).
+            current fields of studying include machine learing , full-stack web-development, competetive coding and quant.
+            </p>
         contact 
         </div>
     );
