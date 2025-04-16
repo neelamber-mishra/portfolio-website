@@ -4,7 +4,8 @@
 }
 body {
   min-height: 100vh;
-  background-image: url("../pexels-pixabay-268533.jpg");
+  background-image: url("../public/page-1desktop.jpg");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,11 +74,112 @@ nav li:first-child {
 .home {
   color: #f0f0f0;
 }
+.home {
+  display: flex;
+}
+.home h1 {
+  font-size: 50px;
+  color: #f0f0f0;
+  padding-top: 226px;
+  padding-left: 150px;
+  padding-bottom: 171px;
+  box-shadow: rgb(250, 250, 250) 0px 0px 0px;
+  background-color: rgba(246, 19, 19, 0);
+  border-top-color: rgb(239, 21, 21);
+  border-right-color: rgb(239, 21, 21);
+  border-bottom-color: rgb(239, 21, 21);
+  border-left-color: rgb(239, 21, 21);
+}
+.intro {
+  margin-left: -52px;
+  height: 200px;
+  max-height: 200px;
+  width: 484px;
+  max-width: 484px;
+  margin-top: 399px;
+}
+.links {
+  width: 355px;
+  max-width: 355px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: -160px;
+  text-align: left;
+  margin-top: 465px;
+}
+.home button {
+  padding-left: 15px;
+  margin-left: -274px;
+  margin-top: 495px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  border: noen;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: rgba(15, 250, 242, 0.99) -2px 0px 16px;
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(
+    90deg,
+    rgb(26, 232, 184),
+    rgb(45, 168, 166) 50%
+  );
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+}
+
 @media (max-width: 800px) {
+  /* body {
+    min-height: 100vh;
+    background-image: url("../public/page-1phone.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  } */
   .hideonmobile {
     display: none;
   }
   .showmobile {
     display: block;
+  }
+  .home {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 50px; */
+    margin: 0;
+  }
+  .home h1,
+  .links {
+    font-size: 24px;
+    padding: 0;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgba(246, 19, 19, 0);
+  }
+  .home .links {
+    display: flex;
+    font-size: 12px;
+    margin-top: 115px;
+    margin-left: -110px;
+  }
+  .intro {
+    margin-left: -190px;
+    height: 200px;
+    max-height: 200px;
+    width: 484px;
+    max-width: 484px;
+    margin-top: 200px;
+  }
+  .home button {
+    margin-top: 450px;
   }
 }
