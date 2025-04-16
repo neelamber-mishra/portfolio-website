@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Header.jsx";
 import Sidebar from "./Sidebar";
+import Home from "./Home.jsx";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -14,8 +15,7 @@ function App() {
       <Header toggleSidebar={toggleSidebar} />
       {isSidebarOpen && <Sidebar toggleSidebar={toggleSidebar} />}
       <div className="App">
-        <h1>My Portfolio</h1>
-        <p>Welcome to my portfolio website!</p>
+          <Home></Home>
       </div>
     </>
   );

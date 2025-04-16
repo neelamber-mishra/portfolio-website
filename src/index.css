@@ -10,8 +10,12 @@ body {
   background-position: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.headnav {
+  border-radius: 10px;
+  margin: 10px;
+}
 nav {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.444);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul {
@@ -28,15 +32,18 @@ nav li {
   display: none;
 }
 nav a {
-  height: 100%;
-  padding: 0 30px;
+  height: auto;
+  padding: 10px 30px;
   text-decoration: none;
   display: flex;
   align-items: center;
   color: black;
 }
 nav a:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f032;
+  font-size: larger;
+  border-top: 2px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
 }
 nav li:first-child {
   margin-right: auto;
@@ -64,6 +71,9 @@ nav li:first-child {
 }
 .sidebar a {
   width: 100%;
+}
+.home {
+  color: #f0f0f0;
 }
 @media (max-width: 800px) {
   .hideonmobile {

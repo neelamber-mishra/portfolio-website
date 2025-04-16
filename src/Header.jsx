@@ -3,7 +3,7 @@ import React from "react";
 function Header({ toggleSidebar }) {
   return (
     <>
-      <nav>
+      <nav className="headnav">
         <ul>
           <li>
             <a href="#portfolio">Logo</a>
