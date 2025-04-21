@@ -1,6 +1,7 @@
 function Home() {
   let dev = "Neelamber Mishra";
   let a = "<>";
+  let b = "</>";
 
   return (
     <div className="home" id="home">
