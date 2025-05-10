@@ -13,9 +13,7 @@ function About() {
       <motion.div className="about">
         <h1>About Me</h1>
         <p className="links">
-          say hello <i className="fas fa-coffee"></i>
-        </p>
-        <p className="intro">{intro}</p>
+          say hello <i cla
 
         
     </>
