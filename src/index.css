@@ -2,20 +2,39 @@
   margin: 0;
   padding: 0;
 }
+html::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
 body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.home {
   min-height: 100vh;
-  background-image: url("../public/page-1desktop.jpg");
-  background-color: black;
+  background-image: url("/page-1desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+  min-height: 100vh;
+  background-image: url("../public/2107.w026.n002.637B.p1.637.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .headnav {
   border-radius: 10px;
   margin: 10px;
+  z-index: 999;
 }
 nav {
+  width: 99%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
   background-color: rgba(255, 255, 255, 0.444);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -89,16 +108,33 @@ nav li:first-child {
   border-right-color: rgb(239, 21, 21);
   border-bottom-color: rgb(239, 21, 21);
   border-left-color: rgb(239, 21, 21);
+  align-items: right;
+  /* text-align: right; */
 }
 .intro {
-  margin-left: -52px;
+  margin-left: 0px;
   height: 200px;
   max-height: 200px;
   width: 484px;
   max-width: 484px;
   margin-top: 399px;
 }
+.typed-container {
+  display: inline-block;
+  width: 400px; /* max expected width — adjust as needed */
+  min-height: 40px;
+}
+
+.typed {
+  font-family: monospace;
+  font-size: 40px;
+  color: #0ff;
+  white-space: nowrap;
+}
+
 .links {
+  display: flex;
+  flex-direction: column;
   width: 355px;
   max-width: 355px;
   padding-right: 0px;
@@ -108,6 +144,7 @@ nav li:first-child {
   margin-top: 465px;
 }
 .home button {
+  display: flex;
   padding-left: 15px;
   margin-left: -274px;
   margin-top: 495px;
