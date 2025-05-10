@@ -17,16 +17,7 @@ function About() {
         </p>
         <p className="intro">{intro}</p>
 
-        <a href="#contact">
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            className="contact-button"
-          >
-            Contact
-          </motion.button>
-        </a>
-      </motion.div>
+        
     </>
   );
 }
