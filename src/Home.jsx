@@ -18,12 +18,12 @@ function Home() {
         {"</>"}
       </h1>
       <p className="links">
-        say hallo <i className="fas fa-coffee"></i>
+        say hello <i className="fas fa-coffee"></i>
       </p>
       <p className="intro">
-        Hello I am {dev}, a computer science student at the Indian Institute of
-        Technology (Dhanbad). Current fields of study include machine learning,
-        full-stack web development, competitive coding and quant.
+        Hello i am {dev} , a computer science student at the indian institute of
+        technology (dhanbad). current fields of studying include machine learing
+        , full-stack web-development, competetive coding and quant.
       </p>
       <a href="#contact">
         <motion.button
