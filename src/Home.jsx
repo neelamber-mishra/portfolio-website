@@ -18,7 +18,7 @@ function Home() {
         {"</>"}
       </h1>
       <p className="links">
-        say hello <i className="fas fa-coffee"></i>
+        say hello <i className=""></i>
       </p>
       <p className="intro">
         Hello i am {dev} , a computer science student at the indian institute of
