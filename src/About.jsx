@@ -10,10 +10,7 @@ function About() {
 
   return (
     <>
-      <motion.div className="about">
-        <h1>About Me</h1>
-        <p className="links">
-          say hello <i cla
+     
 
         
     </>
