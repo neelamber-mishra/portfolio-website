@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Background shades - dark */
+        --background: 220 20% 12%;          /* Dark blue-black */
+        --background-light: 220 18% 18%;    /* Slightly lighter dark blue */
+
+        /* Foreground - light */
+        --foreground: 210 20% 85%;          /* Light grey-blue */
+
+        /* Card and Popover backgrounds */
+        --card: 220 19% 7%;                 /* Very dark blue */
+        --card-foreground: 210 20% 92%;     /* Bright light */
+        --popover: 220 19% 7%;              /* Same as card */
+        --popover-foreground: 210 20% 92%;  /* Same as card foreground */
+
+        /* Primary is vibrant cyan */
+        --primary: 185 90% 50%;             /* Cyan */
+        --primary-foreground: 210 20% 12%;  /* Dark for contrast */
+
+        /* Secondary is warm orange */
+        --secondary: 30 90% 55%;            /* Orange */
+        --secondary-foreground: 220 18% 12%;/* Dark */
+
+        /* Muted color - low saturation blue-gray */
+        --muted: 210 15% 30%;               /* Muted dark blue-gray */
+        --muted-foreground: 210 18% 65%;   /* Medium light blue-gray */
+
+        /* Accent - magenta-ish */
+        --accent: 320 65% 40%;              /* Medium magenta */
+        --accent-foreground: 210 20% 92%;  /* Light */
+
+        /* Destructive - red */
+        --destructive: 0 80% 50%;           /* Bright red */
+        --destructive-foreground: 210 20% 12%; /* Dark */
+
+        /* Border color - soft blue-gray */
+        --border: 210 18% 24%;              /* Medium dark gray blue */
+
+        /* Input background */
+        --input: 210 18% 28%;               /* Dark input color */
+
+        /* Ring color - bright blue */
+        --ring: 200 90% 60%;                /* Bright blue */
+
+        /* Chart colors - varied and harmonious */
+        --chart-1: 205 90% 54%;             /* Blue */
+        --chart-2: 145 70% 45%;             /* Green */
+        --chart-3: 40 90% 55%;              /* Yellow */
+        --chart-4: 295 75% 60%;             /* Purple */
+        --chart-5: 350 80% 55%;             /* Pink-red */
+    }
+}
+
+
+
+@layer base {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    * {
+        @apply border-border !cursor-none;
+    }
+    body {
+        @apply bg-background text-foreground font-roboto-flex;
+    }
+}
+
+@layer components {
+    .grid {
+        @apply gap-[25px];
+    }
+
+    .markdown-text ul {
+        @apply pl-5 mt-2 list-disc;
+    }
+}
