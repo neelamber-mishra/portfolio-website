@@ -14,7 +14,6 @@ export const GENERAL_INFO = {
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/neelambe-mishra' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/neelamber-mishra' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
     { name: 'Old Version', url: ''},
 ];
 
@@ -123,7 +122,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'title',
         slug: 'mti',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        liveUrl: '/',
         year: 2025,
         description: '',//`
     //   A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
