@@ -2,7 +2,7 @@ import { IProject } from '@/types';
 import { Languages } from 'lucide-react';
 
 export const GENERAL_INFO = {
-    email: 'neelambermishra10@gmail.com',
+    email: 'mishra.neelamber1@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Neelamber, I am reaching out to you because...',
@@ -14,7 +14,7 @@ export const GENERAL_INFO = {
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/neelambe-mishra' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/neelamber-mishra' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
+    { name: 'facebook', url: '.' },
     { name: 'Old Version', url: ''},
 ];
 
