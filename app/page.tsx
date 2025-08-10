@@ -10,7 +10,6 @@ export default function Home() {
             <Banner />
             <AboutMe />
             <Skills />
-            <Experiences />
             <ProjectList />
         </div>
     );

@@ -14,8 +14,6 @@ export const GENERAL_INFO = {
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/neelambe-mishra' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/neelamber-mishra' },
-    { name: 'facebook', url: '.' },
-    { name: 'Old Version', url: ''},
 ];
 
 export const MY_STACK = {
@@ -88,10 +86,6 @@ export const MY_STACK = {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
         },
-        {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
-        },
     ],
     tools: [
         {
@@ -101,10 +95,6 @@ export const MY_STACK = {
         {
             name: 'Docker',
             icon: '/logo/docker.svg',
-        },
-        {
-            name: 'AWS',
-            icon: '/logo/aws.png',
         },
     ],
     Languages: [
@@ -116,61 +106,52 @@ export const MY_STACK = {
             name: 'C++',
             icon: '/logo/cpp.png',
         },
+        {
+            name: 'Python',
+            icon: 'logo/python.svg',
+        },
+        {
+            name: 'Rust',
+            icon: 'logo/rust.svg'
+        }
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'title',
+        title: 'nmfzf',
         slug: 'mti',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        liveUrl: 'https://github.com/neelamber-mishra/nmfzf.git',
         year: 2025,
-        description: '',//`
-    //   A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
+        description: `
+      A terminal-based WiFi management tool that combines nmcli (NetworkManager) with fzf (fuzzy finder) to create an intuitive, keyboard-driven interface for wireless network connections. Designed for developers and power users who prefer terminal efficiency with modern UX.<br/> <br/>
       
-    //   Key Features:<br/>
-    //   <ul>
-    //     <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-    //     <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-    //     <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-    //     <li>📱 Fully Responsive: Optimized for all device sizes</li>
-    //     <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-    //   </ul><br/>
-      
-    //   Technical Highlights:
-    //   <ul>
-    //     <li>Implemented complex slider synchronization logic using Swiper.js</li>
-    //     <li>Customized Payload CMS admin panel for intuitive content management</li>
-    //     <li>Developed reusable UI components with shadcn for design consistency</li>
-    //     <li>Configured efficient data fetching strategies in Next.js</li>
-    //   </ul>
-    //   `,
-        role: '', //`
-    //   Full-Stack Developer <br/>
-    //   Owned the entire development lifecycle:
-    //   <ul>
-    //     <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-    //     <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-    //     <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-    //     <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-    //     <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-    //     <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-    //   </ul>
-    //   `,
+      Key Features:
+<ul> <li>🔍 Fuzzy-Find Interface: Intuitive network discovery with <code>fzf</code> search</li> <li>⚡ One-Click Connections: Fast access to previously used networks</li> <li>📶 Signal Visualization: Clear signal strength indicators (BARS display)</li> <li>🔒 Secure Authentication: Dual-mode password input (CLI/Zenity GUI)</li> <li>🔄 Auto WiFi Management: Smart radio toggle with status detection</li> </ul>
+
+Technical Highlights:
+<ul> <li>Engineered robust SSID parsing using <code>nmcli -t</code> tab-separated output</li> <li>Implemented UUID-based connection management for reliability</li> <li>Developed space-safe string handling for complex network names</li> <li>Optimized performance with parallelized network scans</li> </ul>
+      `,
+      role: 'Linux System Tool Developer',
+      //   Created a terminal-based WiFi management solution:
+      //   <ul>
+      //     <li>🔧 Core Architecture: Designed the CLI interface around NetworkManager's `nmcli`</li>
+      //     <li>🔍 Interactive UI: Implemented fuzzy-finding with `fzf` for network selection</li>
+      //     <li>🔄 State Management: Automated WiFi radio toggling with status detection</li>
+      //     <li>🔒 Security: Developed dual-mode authentication (CLI/Zenity GUI)</li>
+      //     <li>📦 Packaging: Built AUR package for Arch Linux deployment</li>
+      //     <li>🐧 Compatibility: Ensured cross-distro support (Debian, RHEL, Arch)</li>
+      //     <li>⚡ Performance: Optimized scan/connection speeds with parallel processing</li>
+      //   </ul>
         techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
+            'Bash 5.0+',
+            'Zenity',
         ],
-        thumbnail: '/projects/thymbnail/1.jpg',
+        thumbnail: '/projects/thumbnail/1.jpg',
         longThumbnail: '/projects/long/1.jpg',
         images: [
-            '/projects/images/1.jpg',
-            '/projects/images/2.jpg',
+            '/projects/images/nmfzf2.jpg',
+            '/projects/images/nmfzf1.jpg',
         ],
     },
     
