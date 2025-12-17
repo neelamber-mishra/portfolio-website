@@ -136,7 +136,6 @@ export const PROJECTS: IProject[] = [
         'TypeScript',
         'Tailwind CSS',
         'TMDB API',
-        'Axios',
         'React',
         'Vercel',
     ],
