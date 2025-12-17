@@ -1,7 +1,8 @@
 import { IProject } from '@/types';
-import { Languages } from 'lucide-react';
+// import { Languages } from 'lucide-react';
 
 export const GENERAL_INFO = {
+    name : 'Neelamber Mishra',
     email: 'mishra.neelamber1@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
