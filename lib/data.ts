@@ -13,6 +13,7 @@ export const GENERAL_INFO = {
 };
 
 export const SOCIAL_LINKS = [
+    {name : 'codeforces', url : 'https://codeforces.com/profile/ancient_Dream'},
     { name: 'github', url: 'https://github.com/neelambe-mishra' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/neelamber-mishra' },
 ];
@@ -36,24 +37,12 @@ export const MY_STACK = {
             icon: '/logo/next.png',
         },
         {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
-        {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
         },
         {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
             name: 'Frammer Motion',
             icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'SASS',
-            icon: '/logo/sass.png',
         },
         {
             name: 'Bootstrap',
@@ -64,10 +53,6 @@ export const MY_STACK = {
         {
             name: 'Node.js',
             icon: '/logo/node.png',
-        },
-        {
-            name: 'Nest.js',
-            icon: '/logo/nest.svg',
         },
         {
             name: 'Express.js',
@@ -111,50 +96,101 @@ export const MY_STACK = {
             name: 'Python',
             icon: 'logo/python.svg',
         },
-        {
-            name: 'Rust',
-            icon: 'logo/rust.svg'
-        }
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'nmfzf',
-        slug: 'mti',
-        liveUrl: 'https://github.com/neelamber-mishra/nmfzf.git',
-        year: 2025,
-        description: `
-      A terminal-based WiFi management tool that combines nmcli (NetworkManager) with fzf (fuzzy finder) to create an intuitive, keyboard-driven interface for wireless network connections. Designed for developers and power users who prefer terminal efficiency with modern UX.<br/> <br/>
-      
-      Key Features:
-<ul> <li>🔍 Fuzzy-Find Interface: Intuitive network discovery with <code>fzf</code> search</li> <li>⚡ One-Click Connections: Fast access to previously used networks</li> <li>📶 Signal Visualization: Clear signal strength indicators (BARS display)</li> <li>🔒 Secure Authentication: Dual-mode password input (CLI/Zenity GUI)</li> <li>🔄 Auto WiFi Management: Smart radio toggle with status detection</li> </ul>
+    title: 'NextFilm 🎬',
+    slug: 'nextfilm',
+    liveUrl: 'https://github.com/neelamber-mishra/nextfilm.git',
+    year: 2024,
+    description: `
+    A modern, responsive movie and TV show discovery application built with Next.js 14. Browse trending content, search across thousands of titles, and view detailed information with an elegant dark-themed interface.<br/><br/>
 
-Technical Highlights:
-<ul> <li>Engineered robust SSID parsing using <code>nmcli -t</code> tab-separated output</li> <li>Implemented UUID-based connection management for reliability</li> <li>Developed space-safe string handling for complex network names</li> <li>Optimized performance with parallelized network scans</li> </ul>
-      `,
-      role: 'Linux System Tool Developer',
-      //   Created a terminal-based WiFi management solution:
-      //   <ul>
-      //     <li>🔧 Core Architecture: Designed the CLI interface around NetworkManager's `nmcli`</li>
-      //     <li>🔍 Interactive UI: Implemented fuzzy-finding with `fzf` for network selection</li>
-      //     <li>🔄 State Management: Automated WiFi radio toggling with status detection</li>
-      //     <li>🔒 Security: Developed dual-mode authentication (CLI/Zenity GUI)</li>
-      //     <li>📦 Packaging: Built AUR package for Arch Linux deployment</li>
-      //     <li>🐧 Compatibility: Ensured cross-distro support (Debian, RHEL, Arch)</li>
-      //     <li>⚡ Performance: Optimized scan/connection speeds with parallel processing</li>
-      //   </ul>
-        techStack: [
-            'Bash 5.0+',
-            'Zenity',
-        ],
-        thumbnail: '/projects/thumbnail/1.jpg',
-        longThumbnail: '/projects/long/1.jpg',
-        images: [
-            '/projects/images/nmfzf2.jpg',
-            '/projects/images/nmfzf1.jpg',
-        ],
-    },
+    Key Features:
+    <ul>
+        <li>Trending Content: Daily-updated popular movies and TV shows sections</li>
+        <li>Smart Search: Real-time search with debouncing for optimal API performance</li>
+        <li>Responsive Design: Fully responsive layout from mobile to desktop</li>
+        <li>Modern UI: Clean dark theme with smooth hover animations and transitions</li>
+        <li>Fast Performance: Built with Next.js 14 for optimal speed and SEO</li>
+        <li>Detailed Views: Comprehensive information pages for movies and TV shows</li>
+        <li>Multi-Media Support: Unified handling of both movies and TV shows</li>
+        <li>Elegant Fallbacks: Custom black placeholder images for missing posters</li>
+    </ul>
+
+    Technical Highlights:
+    <ul>
+        <li>Built with Next.js 14 App Router for server-side rendering and optimal performance</li>
+        <li>Implemented TypeScript for type safety and better developer experience</li>
+        <li>Created dynamic routing for movie/TV show detail pages with parameterized URLs</li>
+        <li>Developed responsive grid layouts with Tailwind CSS for all screen sizes</li>
+        <li>Integrated TMDB API with Axios for reliable data fetching and error handling</li>
+        <li>Optimized search with debouncing to reduce API calls and improve UX</li>
+    </ul>
+    `,
+    role: 'Full Stack Developer',
+    techStack: [
+        'Next.js 14',
+        'TypeScript',
+        'Tailwind CSS',
+        'TMDB API',
+        'Axios',
+        'React',
+        'Vercel',
+    ],
+    thumbnail: '/projects/thumbnail/nextfilm.jpg',
+    longThumbnail: '/projects/long/nextfilm.jpg',
+    images: [
+        '/projects/images/nextfilm1.jpg',
+        '/projects/images/nextfilm2.jpg',
+        '/projects/images/nextfilm3.jpg',
+    ],
+},
+    {
+    title: 'Hazard Detector',
+    slug: 'hazard-detector',
+    liveUrl: 'https://github.com/yourusername/hazard-detector.git',
+    year: 2024,
+    description: `
+    An AI-Powered Safety Intelligence Tool designed to make Mining Safety details across India more accessible and actionable. From real-time pattern detection to automated safety audits along with latest news, the platform aims to keep users informed and compliant.<br/><br/>
+
+    Key Features:
+    <ul>
+        <li>Latest News & Updates: Real-time news feeds highlighting mining-related incidents across India</li>
+        <li>AI Safety Officer: RAG-based AI model trained on DGMS (Directorate General of Mines Safety) data</li>
+        <li>Location Intelligence: Interactive heat maps showing regional severity of mining issues</li>
+        <li>Real-time Pattern Detection: Automated safety audit and compliance monitoring</li>
+        <li>Data-Driven Insights: Actionable safety intelligence for mining professionals and regulators</li>
+    </ul>
+
+    Technical Highlights:
+    <ul>
+        <li>Built RAG (Retrieval-Augmented Generation) system with vector embeddings for accurate safety queries</li>
+        <li>Implemented real-time data processing pipeline for mining incident analysis</li>
+        <li>Developed location-based heat mapping with severity visualization algorithms</li>
+        <li>Created automated safety audit system using AI pattern recognition</li>
+    </ul>
+    `,
+    role: 'Backend & AI Systems Developer',
+    techStack: [
+        'Python',
+        'FastAPI/Flask',
+        'Pinecone',
+        'n8n',
+        'Vector Embeddings',
+        'Docker',
+    ],
+    thumbnail: '/projects/thumbnail/hazard-dector.jpg',
+    longThumbnail: '/projects/long/hazard-dector.jpg',
+    images: [
+        '/projects/images/hazard-dector1.jpg',
+        '/projects/images/hazard-dector2.jpg',
+        '/projects/images/hazard-dector3.jpg',
+        '/projects/images/hazard-dector4.jpg',
+    ],
+}
     
 ];
 
